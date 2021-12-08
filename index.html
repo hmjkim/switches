@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infographic Animation - Mechanical Switches</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <header></header>
+    <div id="wrapper">
+        <main>
+            <div id="container">
+                <div class="keyboard bg-center is-relative">
+                    <h1 class="title">
+                        <div class="title-line1 mg-btm is-relative">A <span class="is-relative">Co</span>mplete</div>
+                        <div class="title-line2 mg-btm is-relative">Guide <span class="is-relative">to</span></div>
+                        <div class="flash">
+                            <div class="title-line3 mg-btm is-relative">Mech<span class="is-relative">an</span>ical</div>
+                            <div class="title-line4 mg-btm is-relative">Switches</div>
+                        </div>
+                    </h1>
+                </div>
+                
+                <!-- What is a Switch? -->
+                <section class="intro">
+                    <div class="section-heads">
+                        <h2>What is a Switch?</h2>
+                        <div class="highlight"></div>
+                    </div>
+                    <p>A mechanical keyboard switch is a physical switch mechanism that is placed underneath every key on the keyboard.It records and registers each keystroke. These switches have a variety of response, noise, and travel times.</p>
+                </section>
+
+                <!-- Anatomy of a Switch -->
+                <section>
+                    <div class="section-heads">
+                        <h2>Anatomy of a Switch</h2>
+                        <div class="highlight"></div>
+                    </div>
+                    <div class="anatomy is-flex">
+                        <ul class="parts is-flex">
+                            <li><img class="upr-housing is-relative" src="img/upper-housing.svg" alt="upper housing"></li>
+                            <li><img class="stem is-relative" src="img/stem.svg" alt="stem"></li>
+                            <li><img class="crosspoint-contact is-relative" src="img/crosspoint-contact.svg" alt="crosspoint contact"></li>
+                            <li><img class="coil-spring is-relative" src="img/coil-spring.png" alt="coil spring"></li>
+                            <li><img class="btm-housing is-relative" src="img/bottom-housing.svg" alt="bottom housing"></li>
+                        </ul>
+                        <ol class="description">
+                            <li>
+                                <h3>Upper Housing</h3>
+                                <p>The part where the keycap hits when pressing the key. Protects the stem and helps with precision guidance.</p>
+                            </li>
+                            <li>
+                                <h3>Stem</h3>
+                                <p>Helps regulate the keystroke feel and determines the switch type.</p>
+                            </li>
+                            <li>
+                                <h3>Crosspoint Contact</h3>
+                                <p>Carries the electrical flow needed to alert the circuit board that a key has been pressed. Guides the switch to slide back to its original position.</p>
+                            </li>
+                            <li>
+                                <h3>Coil Spring</h3>
+                                <p>Determines the amount of vertical pressure needed to actuate the key.</p>
+                            </li>
+                            <li>
+                                <h3>Bottom Housing</h3>
+                                <p>The part where the upper housing is mounted and where the actual installation of the switch to the keyboard happens.</p>
+                            </li>
+                        </ol>
+                    </div>
+                </section>
+                <!-- Types -->
+                <section class="types">
+                    <div class="section-heads">
+                        <h2>Types of Switches</h2>
+                        <div class="highlight"></div>
+                    </div>
+
+
+                    <div class="flip-cards is-flex">
+                        <!-- Flip Card - Linear Switch -->
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front front-box is-flex centering">
+                                    <!-- front content -->
+                                    <h3>Linear</h3>
+                                </div>
+                                <div class="back back-box is-flex centering">
+                                    <!-- back content -->
+                                    <p>Executes simplest operation that moves straight up and down without any tactile feedback or clicking noise.</p>
+                                    <p class="keypoint">Smooth and Direct</p>
+                                </div>
+                            </div>
+
+                        <!-- Flip Card - Tactile Switch --> 
+                        </div>
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front front-box is-flex centering">
+                                    <!-- front content -->
+                                    <h3>Tactile</h3>
+                                </div>
+                                <div class="back back-box is-flex centering">
+                                    <!-- back content -->
+                                    <p>Provides a notiecable bump in the middle of travel to let you know that the key press has been registered.</p>
+                                    <p class="keypoint">Bumpy and Noticeable</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Flip Card - Clicky Switch -->
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front front-box is-flex centering">
+                                    <!-- front content -->
+                                    <h3>Clicky</h3>
+                                </div>
+                                <div class="back back-box is-flex centering">
+                                    <!-- back content -->
+                                    <p>Produces a tactile bump and creates distinct audible clicky sound with each keystroke.</p>
+                                    <p class="keypoint">Clicky and Loud</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Keycap Characters -->
+                    <div class="characters">
+
+                        <img id="linear" class="is-relative" src="img/linear-no-arm.svg" alt="Linear character with no arm">
+                        <img id="arm" class="is-relative" src="img/arm.svg" alt="the left arm of the Linear character">
+                        <img id="tactile" class="is-relative" src="img/tactile.svg" alt="Tactile character">
+
+                        <!-- clicky character turning dance -->
+                        <div class="turning is-relative">
+                            <div class="flip-inner">
+                                <div class="flip-front">
+                                    <img class="clicky" src="img/clicky.svg" alt="Clicky character">
+                                </div>
+                                <div class="flip-back">
+                                    <img class="clicky" src="img/clicky-back.svg" alt="Clicky character backside">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Musical Notes -->
+                        <div class="musical-notes">
+                            <img id="note1" class="is-relative" src="img/note1.svg" alt="musical note variation1">
+                            <img id="note2" class="is-relative" src="img/note2.svg" alt="musical note variation2">
+                        </div>
+
+                        <!-- Plus Shape Decorations -->
+                        <div class="plus">
+                            <img id="plus1" class="is-relative" src="img/plus1.svg" alt="Plus shaped graphic">
+                            <img id="plus2" class="is-relative" src="img/plus2.svg" alt="Plus shaped graphic">
+                            <img id="plus3" class="is-relative" src="img/plus3.svg" alt="Plus shaped graphic">
+                        </div>
+
+                    </div>
+                </section>
+
+                <!-- Cherry MX Switches Comparison -->
+                <section class="cherry-mx is-relative ground bg-center">
+                    
+                    <div class="section-heads">
+                        <h2>Cherry MX Switches</h2>
+                        <div class="highlight"></div>
+                    </div>
+                    <img class="logo is-relative" src="img/cherry-mx-logo.png" alt="Cherry MX company logo">
+
+                    <p>Cherry MX series are the most popular line of switches manufactured in Germany around 1985. These are referenced by their physical colour, with each colour denoting the switch’s handling characteristics.</p>
+
+                    <!-- Legends -->
+                    <ul class="legends is-flex centering">
+                        <li class="col-3">
+                            <div class="box oper-force"></div>
+                            <p>Operating Force</p>
+                        </li>
+
+                        <li class="col-3">
+                            <div class="box act-point"></div>
+                            <p>Actuation Point</p>
+                        </li>
+                        <li class="col-3">
+                            <div class="box trav-distance"></div>
+                            <p>Total Travel Distance</p>
+                        </li>
+                    </ul>
+
+                    <!-- Cherry MX Series -->
+                    <ul class="is-flex">
+                        <li class="col-4">
+                            <img id="red" class="switch" src="img/red.svg" alt="Cherry MX Red switch">
+                            <h4>Cherry MX Red</h4>
+                            <div id="redDetails" class="details">
+                                <p>Linear</p>
+
+                                <div class="graphics is-flex centering">
+                                    <div class="number">
+                                        <p>45cN</p>
+                                        <p>2mm</p>
+                                        <p>4mm</p>
+                                    </div>
+                                    <div class="bar-graph">
+                                        <div class="bar is-relative">
+                                            <div class="box-grow oper-force"></div>
+                                        </div>
+                                        
+                                        <div class="bar is-relative">
+                                            <div class="box-grow act-point"></div>
+                                        </div>
+                                       
+                                        <div class="bar is-relative">
+                                            <div class="box-grow trav-distance"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="col-4">
+                            <img id="brown" class="switch" src="img/brown.svg" alt="Cherry MX brown switch">
+                            <h4>Cherry MX Brown</h4>
+                            <div id="brownDetails" class="details">
+                                <p>Tactile</p>
+
+                                <div class="graphics is-flex centering">
+                                    <div class="number">
+                                        <p>55cN</p>
+                                        <p>2mm</p>
+                                        <p>4mm</p>
+                                    </div>
+                                    <div class="bar-graph">
+                                        <div class="bar is-relative">
+                                            <div class="box-grow oper-force"></div>
+                                        </div>
+                                        
+                                        <div class="bar is-relative">
+                                            <div class="box-grow act-point"></div>
+                                        </div>
+                                       
+                                        <div class="bar is-relative">
+                                            <div class="box-grow trav-distance"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                        <li class="col-4">
+                            <img id="blue" class="switch" src="img/blue.svg" alt="Cherry MX blue switch">
+                            <h4>Cherry MX Blue</h4>
+                            <div id="blueDetails" class="details">
+                                <p>Clicky</p>
+
+                                <div class="graphics is-flex centering">
+                                    <div class="number">
+                                        <p>60cN</p>
+                                        <p>2.2mm</p>
+                                        <p>4mm</p>
+                                    </div>
+                                    <div class="bar-graph">
+                                        <div class="bar is-relative">
+                                            <div class="box-grow oper-force"></div>
+                                        </div>
+                                        
+                                        <div class="bar is-relative">
+                                            <div class="box-grow act-point"></div>
+                                        </div>
+                                       
+                                        <div class="bar is-relative">
+                                            <div class="box-grow trav-distance"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <div class="txt-center">
+                    <a class="btn" href="https://mechanicalkeyboards.com/shop/index.php?l=product_list&c=43" target="_blank">Order Now</a>
+                </div>
+            </div>
+        </main>
+        <footer class="ftr">
+            <p>Designed By Heather Kim</p>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            var red_state = 1;
+            var brown_state = 1;
+            var blue_state = 1;
+
+            // Red Switch Bar Grow
+            $("#red").click(function(){
+                if (red_state == 1){
+                    $("#redDetails").slideDown(1000, function() {
+                        $("#redDetails .number").animate( { opacity: "1" }, 1000, function(){
+                            $("#redDetails .oper-force").animate( {width: "40px"}, 700, function(){
+                                $("#redDetails .act-point").animate( {width: "30px"}, 700, function(){
+                                    $("#redDetails .trav-distance").animate({width: "45px"}, 700)
+                                });
+                            });
+                        });
+                    });
+                    red_state = 2;
+               
+                } else {
+                    $("#redDetails").slideUp(1000);
+                    $("#redDetails .number").animate( {opacity: "0"});
+                    $("#redDetails .box-grow").animate( {width: "0"});
+                    red_state = 1;
+                }
+            });
+
+            // Brown Switch Bar Grow
+            $("#brown").click(function(){
+                if (brown_state == 1){
+                    $("#brownDetails").slideDown(1000, function() {
+                        $("#brownDetails .number").animate( { opacity: "1" }, 1000, function(){
+                            $("#brownDetails .oper-force").animate( {width: "55px"}, 700, function(){
+                                $("#brownDetails .act-point").animate( {width: "20px"}, 700, function(){
+                                    $("#brownDetails .trav-distance").animate({width: "45px"}, 700)
+                                });
+                            });
+                        });
+                    });
+                    brown_state = 2;
+               
+                } else {
+                    $("#brownDetails").slideUp(1000);
+                    $("#brownDetails .number").animate( {opacity: "0"});
+                    $("#brownDetails .box-grow").animate( {width: "0"});
+                    brown_state = 1;
+                }
+            });
+
+            // Blue Switch Bar Grow
+            $("#blue").click(function(){
+                if (blue_state == 1){
+                    $("#blueDetails").slideDown(1000, function() {
+                        $("#blueDetails .number").animate( { opacity: "1" }, 1000, function(){
+                            $("#blueDetails .oper-force").animate( {width: "60px"}, 700, function(){
+                                $("#blueDetails .act-point").animate( {width: "30px"}, 700, function(){
+                                    $("#blueDetails .trav-distance").animate({width: "45px"}, 700)
+                                });
+                            });
+                        });
+                    });
+                    blue_state = 2;
+               
+                } else {
+                    $("#blueDetails").slideUp(1000);
+                    $("#blueDetails .number").animate( {opacity: "0"});
+                    $("#blueDetails .box-grow").animate( {width: "0"});
+                    blue_state = 1;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
